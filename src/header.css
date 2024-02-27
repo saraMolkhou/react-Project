@@ -1,0 +1,36 @@
+.header {
+    background-color: #5a76e4; /* צבע רקע של ההדר */
+    color: #0d0000; /* צבע הטקסט בהדר */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .logo img {
+    width: 100px; /* גודל הלוגו */
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px; /* מרווח בין פריטי התפריט */
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0; /* אין מרווח לפני הפריט האחרון בתפריט */
+  }
+  
+  .nav-item a {
+    color: #050110; /* צבע הטקסט של הקישורים בתפריט */
+    text-decoration: none; /* מונע קווים תחתונים מתחת לקישורים */
+    font-weight: bold;
+    font-size: 18px; /* גודל הטקסט של הקישורים בתפריט */
+  }
+  
